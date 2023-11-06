@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F0381C542AF846820029585F /* todolistApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0381C532AF846820029585F /* todolistApp.swift */; };
-		F0381C562AF846820029585F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0381C552AF846820029585F /* ContentView.swift */; };
+		F0381C542AF846820029585F /* TodoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0381C532AF846820029585F /* TodoListApp.swift */; };
+		F0381C562AF846820029585F /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0381C552AF846820029585F /* TodoListView.swift */; };
 		F0381C582AF846830029585F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0381C572AF846830029585F /* Assets.xcassets */; };
 		F0381C5B2AF846830029585F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0381C5A2AF846830029585F /* Preview Assets.xcassets */; };
+		F0381C622AF846D40029585F /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0381C612AF846D40029585F /* Todo.swift */; };
+		F0381C642AF846FD0029585F /* TodoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0381C632AF846FD0029585F /* TodoViewModel.swift */; };
+		F0381C662AF847330029585F /* FetchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0381C652AF847330029585F /* FetchData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F0381C502AF846820029585F /* todolist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todolist.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0381C532AF846820029585F /* todolistApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todolistApp.swift; sourceTree = "<group>"; };
-		F0381C552AF846820029585F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F0381C532AF846820029585F /* TodoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListApp.swift; sourceTree = "<group>"; };
+		F0381C552AF846820029585F /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
 		F0381C572AF846830029585F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0381C5A2AF846830029585F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F0381C612AF846D40029585F /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		F0381C632AF846FD0029585F /* TodoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewModel.swift; sourceTree = "<group>"; };
+		F0381C652AF847330029585F /* FetchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +57,13 @@
 		F0381C522AF846820029585F /* todolist */ = {
 			isa = PBXGroup;
 			children = (
-				F0381C532AF846820029585F /* todolistApp.swift */,
-				F0381C552AF846820029585F /* ContentView.swift */,
+				F0381C532AF846820029585F /* TodoListApp.swift */,
+				F0381C552AF846820029585F /* TodoListView.swift */,
+				F0381C612AF846D40029585F /* Todo.swift */,
 				F0381C572AF846830029585F /* Assets.xcassets */,
 				F0381C592AF846830029585F /* Preview Content */,
+				F0381C632AF846FD0029585F /* TodoViewModel.swift */,
+				F0381C652AF847330029585F /* FetchData.swift */,
 			);
 			path = todolist;
 			sourceTree = "<group>";
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0381C562AF846820029585F /* ContentView.swift in Sources */,
-				F0381C542AF846820029585F /* todolistApp.swift in Sources */,
+				F0381C642AF846FD0029585F /* TodoViewModel.swift in Sources */,
+				F0381C562AF846820029585F /* TodoListView.swift in Sources */,
+				F0381C662AF847330029585F /* FetchData.swift in Sources */,
+				F0381C622AF846D40029585F /* Todo.swift in Sources */,
+				F0381C542AF846820029585F /* TodoListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
